@@ -1,0 +1,87 @@
+/* Basic styling for the portfolio */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    padding: 5px;
+}
+
+header, section, footer {
+    margin-bottom: 5px;
+}
+
+.header-container {
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.header-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-container img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.skills-container ul {
+    list-style-type: none;
+}
+
+.projects-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.project h3 {
+    font-size: 1.5em;
+}
+
+.resume-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.contact-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 10px;
+    background-color: #ccc;
+}
